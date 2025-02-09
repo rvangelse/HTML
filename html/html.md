@@ -1,6 +1,6 @@
 # HTML
 
-HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza para darle una estructura al sitio web que estás visitando. Es un lenguaje interpretado
+HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza para darle una estructura al sitio web que estás visitando. Es un lenguaje interpretado.
 
 ---
 
@@ -17,3 +17,5 @@ HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza 
 - Footer: Pie de página. Esto se encuentra al fondo del sitio web, salvo en casos de sitios web donde el scroll (o navegación hacia abajo) es infinito, por ende, no tendría sentido ponerlo al fondo.
 
 ---
+
+### Index y su estructura básica: head
