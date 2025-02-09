@@ -28,7 +28,7 @@ La información que contiene se mantiene constante y estática. No se actualiza 
   <img src="imagenes/grafico2.jpg" width="200">
 </p>
 
-**Ejemplo de páginas estáticas:**
+**Ejemplos de páginas estáticas:**
 - Menú de un restaurante
 - Blog de viajes
 - Página informativa de un negocio
@@ -39,7 +39,7 @@ También conocidos como aplicaciones web, actualizan su información con respect
   <img src="imagenes/grafico3.webp" width="200">
 </p>
 
-**Ejemplo páginas dinámicas:**
+**Ejemplos de páginas dinámicas:**
 - Sistema de reporte de ventas
 - Linkedin
 - Banca en línea
