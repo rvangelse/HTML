@@ -7,7 +7,7 @@ HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza 
 ### Estructura básica de HTML en una página Web
 
 <p align="center">
-  <img src="imagenes/grafico4.webp" width="200">
+  <img src="HTML-CSS/imagenes/grafico4.webp" width="200">
 </p>
 
 - Container: Contenedor principal
