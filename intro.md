@@ -17,3 +17,29 @@ Es lenguaje que se emplea para crear o brindar a las páginas web la capacidad d
 <p align="center">
   <img src="imagenes/grafico1.png" width="200">
 </p>
+
+---
+
+### Páginas Estáticas vs. Dinámicas
+
+**Páginas Estáticas**
+La información que contiene se mantiene constante y estática. No se actualiza con la interacción del usuario. Es conveniente para realizar landing pages (páginas informativas o de aterrizaje) o blogs. Se mostrarán siempre iguales para todos los usuarios.
+<p align="center">
+  <img src="imagenes/grafico2.jpg" width="200">
+</p>
+
+**Ejemplo de páginas estáticas:**
+- Menú de un restaurante
+- Blog de viajes
+- Página informativa de un negocio
+
+**Páginas Dinámicas**
+También conocidos como aplicaciones web, actualizan su información con respecto a la interacción del usuario. Dependen de una base de datos, de donde extrae e ingresa información. Serán diferentes, dependiendo del usuario que la use y la información que se ingrese.
+<p align="center">
+  <img src="imagenes/grafico3.webp" width="200">
+</p>
+
+**Ejemplo páginas dinámicas:**
+- Sistema de reporte de ventas
+- Linkedin
+- Banca en línea
