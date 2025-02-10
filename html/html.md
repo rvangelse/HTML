@@ -25,9 +25,18 @@ Si no lo haces e `index.html` no existe, el servidor te devolvera toda la estruc
 
 En el `head` van todos los metadatos importantes para que el navegador pueda cargar el proyecto. Esto no es visual para el usuario.
 
-<p align="center">
-  <img src="../imagenes/grafico5.png" width="200">
-</p>
+``` html
+<!DOCTYPE html>
+<html lang= "es"> 
+    <head>
+        <meta charset= "UTF-8" />
+        <meta name="description" content="Esta pagina te mostrara fotos de gatos" />
+        <meta name="robots" content="index,follow"/>
+        <title>Es mi pagina</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+</html>
 
 ---
 
