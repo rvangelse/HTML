@@ -40,4 +40,38 @@ En el `head` van todos los metadatos importantes para que el navegador pueda car
 ```
 ---
 
-En el body, ira todo el contenido que el usuario va a ver.
+### Index y su estructura básica: body
+
+El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. Dentro del body, se añadirán las etiquetas para marcar los elementos visuales del sitio web, como logotipo, menús de navegación, contenido principal, entre otros.
+
+```html
+
+<!DOCTYPE html>
+<html lang= "es"> 
+    <body>
+        <header>
+            <nav>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                <h1></h1>
+                <p></p> <!--Parrafo-->
+                <a href="#">Link</a>
+                </article>
+            </section>
+            <ul> <!--Lista Desordenada-->
+                <li>item</li>
+            </ul>
+            <ol> <!--Lista Ordenada-->
+            </ol>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
+
+```
+
+---
