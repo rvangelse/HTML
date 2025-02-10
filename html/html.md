@@ -134,5 +134,5 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 ### Anatomía de una etiqueta de HTML
 
 <p align="center">
-  <img src="../imagenes/grafico6.png" width="300">
+  <img src="../imagenes/grafico6.png" width="350">
 </p>
