@@ -42,7 +42,7 @@ En el `head` van todos los metadatos importantes para que el navegador pueda car
 
 ### Index y su estructura básica: body
 
-El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. Dentro del body, se añadirán las etiquetas para marcar los elementos visuales del sitio web, como logotipo, menús de navegación, contenido principal, entre otros.
+El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. Dentro del `body`, se añadirán las etiquetas para marcar los elementos visuales del sitio web, como logotipo, menús de navegación, contenido principal, entre otros.
 
 ```html
 
@@ -73,5 +73,60 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 </html>
 
 ```
+
+---
+
+### Practica: Lista de Compras
+
+**Codigo**
+
+``` html
+
+<!DOCTYPE html>
+<html lang= "es"> 
+    <head>
+        <meta charset= "UTF-8" />
+        <meta name="description" content="Esta pagina es mi lista de compras" />
+        <meta name="robots" content="index,follow"/>
+        <title>Lista de Compras</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <main>
+            <h1>Lista de Compras</h1>
+            <ul>
+                <li>Carnes</li>
+                    <ol>
+                        <li>Pechuga de Pollo🐔</li>
+                        <li>Pescado🐠</li>
+                        <li>Res🥩</li>
+                    </ol>
+                <li>Vegetales</li>
+                    <ol>
+                        <li>Aguacate🥑</li>
+                        <li>Zanahorias🥕</li>
+                        <li>Tomates🍅</li>
+                    </ol>
+                <li>Frutas</li>
+                    <ol>
+                        <li>Cerezas🍒</li>
+                        <li>Arandanos🫐</li>
+                        <li>Frutillas🍓</li>
+                    </ol>
+            </ul>
+        </main>
+        <footer>
+            <p>Febrero, 2025</p>
+        </footer>
+    </body>
+</html>
+
+```
+**Output**
+
+<p align="center">
+  <img src="../imagenes/grafico5.png" width="300">
+</p>
 
 ---
