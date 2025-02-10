@@ -19,3 +19,16 @@ HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza 
 ---
 
 ### Index y su estructura básica: head
+
+El primer archivo .html en tu proyecto debe llamarse `index.html`, es la primera pagina que va abrir el servidor, por default, al abrir tu proyecto.
+Si no lo haces e `index.html` no existe, el servidor te devolvera toda la estructura de carpetas de archivos de tu proyecto.
+
+En el `head` van todos los metadatos importantes para que el navegador pueda cargar el proyecto. Esto no es visual para el usuario.
+
+<p align="center">
+  <img src="../imagenes/grafico5.png" width="200">
+</p>
+
+---
+
+En el body, ira todo el contenido que el usuario va a ver.
