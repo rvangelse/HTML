@@ -37,7 +37,7 @@ En el `head` van todos los metadatos importantes para que el navegador pueda car
         <link rel="stylesheet" href="../css/styles.css">
     </head>
 </html>
-
+```
 ---
 
 En el body, ira todo el contenido que el usuario va a ver.
