@@ -126,7 +126,7 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 **Output**
 
 <p align="center">
-  <img src="../imagenes/grafico5.png" width="300">
+  <img src="../imagenes/grafico5.png" width="200">
 </p>
 
 ---
