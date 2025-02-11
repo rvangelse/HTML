@@ -140,3 +140,18 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 ---
 
 ### Tipos de imágenes
+
+**Lossless (Sin pérdida)**
+No pierden informacion. Pueden comprimirse, pero se podrá reconstruir su imagen al estado original.
+Ejemplos:
+- GIF (No se puede comprimir) (Ideal para animaciones simples)
+- PNG 8 (Ideal para iconos) (Permite uso de transparencias)
+- PNG 24
+- SVG (Vector) (Ideal para logotipos y graficos)
+
+**Lossy (Con pérdida)**
+Pierden informacion. Por lo que pueden reducir su tamaño, son mas livianos que los archivos lossless. Son ideales para usar en sitios, donde el tamaño del archivo y la velocidad de descarga son importantes.
+Ejemplos: 
+- JPG/JPEG (Ideal para imagenes fijas y fotografias) (Optimas para la carga en una pagina web) 
+
+OJO: El formato webP es lossy y lossless, al mismo tiempo.
