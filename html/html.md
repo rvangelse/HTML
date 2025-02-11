@@ -160,4 +160,11 @@ Ejemplos:
 
 - JPG/JPEG (Ideal para imagenes fijas y fotografias) (Optimas para la carga en una pagina web) 
 
-OJO: El formato webP es lossy y lossless, al mismo tiempo.
+---
+### Optimizacion de imagenes
+
+El tamaño optimo de una imagen para la web es de 70KB, en promedio. 
+Para alcanzar este tamaño puedes usar paginas como: 
+
+- [TinyPNG](https://tinypng.com/) (Comprime imagenes)
+- [verexif](https://www.verexif.com/) (Elimina los metadatos de una imagen)
