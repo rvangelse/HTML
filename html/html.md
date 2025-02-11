@@ -138,3 +138,5 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 </p>
 
 ---
+
+### Tipos de imágenes
