@@ -164,7 +164,13 @@ Ejemplos:
 ### Optimizacion de imagenes
 
 El tamaño optimo de una imagen para la web es de 70KB, en promedio. 
+
 Para alcanzar este tamaño puedes usar paginas como: 
 
 - [TinyPNG](https://tinypng.com/) (Comprime imagenes)
-- [verexif](https://www.verexif.com/) (Elimina los metadatos de una imagen)
+- [verexif](https://www.verexif.com/) (Elimina los metadatos en una imagen)
+
+Puedes obtener imagenes gratuitas para tus proyectos de paginas como:
+
+-[pexels](https://www.pexels.com/es-es/)
+-[unsplash](https://unsplash.com/es)
