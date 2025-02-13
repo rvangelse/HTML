@@ -170,7 +170,12 @@ Para alcanzar este tamaño puedes usar paginas como:
 - [TinyPNG](https://tinypng.com/) (Comprime imagenes)
 - [verexif](https://www.verexif.com/) (Elimina los metadatos en una imagen)
 
-Puedes obtener imagenes gratuitas para tus proyectos de paginas como:
+Puedes obtener imagenes gratuitas para tus proyectos en:
 
--[pexels](https://www.pexels.com/es-es/)
--[unsplash](https://unsplash.com/es)
+- [pexels](https://www.pexels.com/es-es/)
+- [unsplash](https://unsplash.com/es)
+
+---
+
+### Formularios
+
