@@ -86,7 +86,71 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 </html>
 
 ```
+---
 
+### Anatomía de una etiqueta de HTML
+
+<p align="center">
+  <img src="../imagenes/grafico6.png" width="350">
+</p>
+
+---
+
+### Texto
+
+**Texto Semantico:**
+
+Etiquetas que ayudan a dar más significado a palabras o frases.
+
+``` html
+<!-- Ejemplos: -->
+<p>Párrafo (Elemento de Bloque)</p>
+<em>Énfasis</em>
+<i>Voz alternativa</i>
+<b>Atención utilitaria</b>
+<strong>Gran importancia</strong>
+<small>Pequeño comentario</small>
+<span>Uso con atributos (Elemento de Línea)</span>
+
+<!-- Truco para evitar salto de línea -->
+<p>Estas&nbsp;palabras&nbsp;no&nbsp;saltan&nbsp;líneas&nbsp;en&nbsp;ventanas&nbsp;pequeñas</p>
+
+```
+### Encabezados
+
+``` html
+<!-- Encabezados -->
+<h1>Título</h1>
+<h2>Subtítulo</h2>
+<h3>Subtítulo</h3>
+<h4>Subtítulo</h4>
+<h5>Subtítulo</h5>
+<h6>Subtítulo</h6>
+```
+OJO: Es una buena practica tener un solo titulo por pagina. 
+
+### Listas
+```html
+<!-- Listas desordenadas -->
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+<!-- Listas ordenadas -->
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+<!-- Listas de definición -->
+<dl>
+    <dt>HTML</dt>
+    <dd>Es un lenguaje de marcado de texto.</dd>
+    <dd>Se utiliza para el desarrollo de páginas de Internet.</dd>
+</dl>
+```
+OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado largas.
 ---
 
 ### Practica: Lista de Compras
@@ -143,15 +207,6 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 </p>
 
 ---
-
-### Anatomía de una etiqueta de HTML
-
-<p align="center">
-  <img src="../imagenes/grafico6.png" width="350">
-</p>
-
----
-
 ### Tipos de imágenes
 
 **Lossless (Sin pérdida)**
