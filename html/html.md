@@ -151,9 +151,54 @@ OJO: Es una buena practica tener un solo titulo por pagina.
 </dl>
 ```
 OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado largas.
+
+### Formato
+
+``` html
+
+<!-- Codigo -->
+<p>Utiliza este código en CSS:
+    <code>{ background: blue; }</code>
+</p>
+
+<p>Utiliza este código en HTML:
+    <code>&lt;body&gt;</code>
+</p>
+
+<!-- Superíndice y subíndice -->
+<p>CO<sub>2</sub></p>
+<p>n<sup>2</sup></p>
+<p>Referencia a un libro.<sup>1</sup></p>
+
+```
+### Citas
+
+``` html
+<blockquote> <!--En bloque-->
+    Primero, las máquinas harán muchos trabajos por nosotros y no serán súper inteligentes. Eso debería ser positivo si lo gestionamos bien. Unas décadas después de eso, la IA puede ser bastante fuerte como para ser una preocupación. <sup>[1]</sup>
+</blockquote>
+<p>1."<cite>Bill Gates dice que deberías preocuparte por la inteligencia artificial</cite>". Forbes. Febrero de 2015.</p>
+
+
+<p>José Mujica dijo: <!--En linea (Citas Cortas)-->
+    <q>Ser libre es gastar la mayor cantidad de tiempo de nuestra vida en aquello que nos gusta hacer.</q>
+</p>
+
+```
+### Tiempo 
+
+```html 
+
+<!-- Fechas y Tiempo -->
+<p>Nos vemos a las 
+    <time datetime="2024-04-20 10:00-0800">10</time>
+</p>
+
+```
+
 ---
 
-### Practica: Lista de Compras
+### Practica 1: Lista de Compras
 
 **Codigo**
 
