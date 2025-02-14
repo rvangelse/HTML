@@ -181,4 +181,8 @@ Puedes obtener imagenes gratuitas para tus proyectos en:
 
 ---
 
+### Document Object Model (DOM)
+
+Es el arbol que se forma en el archivo html, es decir, la representacion del HTML en tu pagina.
+
 
