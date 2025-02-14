@@ -31,6 +31,35 @@
             <ol> <!--Lista Ordenada-->
             </ol>
         </main>
+        <form action="" >        <!--Etiqueta de Formulario (Envia informacion por parametros)-->
+            <label for="nombre"> <!--El atributo "action" es la URL a la que se enviara la informacion-->
+                <span>Nombre:</span>
+                <input type="text" id="nombre" placeholder="tu nombre"  name="nombre" autocomplete="name" required/>
+            </label>
+            <label for="correo">
+                <span>email:</span>
+                <input type="email" id="correo" placeholder="algo@algo" name="correo" autocomplete="name" required/> 
+            </label>
+            <span>Genero:</span>
+            <select name="genero" id="genero"> <!--Sirve cuando son pocas opciones-->
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Prefiero no decirlo</option>
+            </select>
+            <span>Pais:</span>
+            <input type="list" list="paises" name="pais"> <!--Sirve cuando son muchas opciones-->
+            <datalist id="paises">
+                <option value="Ecuador"></option>
+                <option value="Argentina"></option>
+                <option value="Colombia"></option>
+            <input type="submit"/> 
+        </form>
+        <form> <!--Calendario (Envia informacion junta) -->
+            <label for="calendario">
+                <span>Calendario</span>
+                <input type="datetime-local" id="calendario" name="calendario" />
+                <input type="submit">
+        </form>
         <footer>
         </footer>
     </body>
