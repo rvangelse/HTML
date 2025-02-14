@@ -1,6 +1,6 @@
 # HTML
 
-HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza para darle estructura a las paginas web. Es un lenguaje interpretado. Fue creado por Tim Berners-Lee en 1990.
+HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Define la estructura y el contenido de una pagina web. Es un lenguaje de alto rendimiento, interpretado y de codigo abierto. Fue creado por Tim Berners-Lee en 1990.
 
 <p align="center">
   <img src="../imagenes/grafico7.png" width="600">
