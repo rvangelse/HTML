@@ -22,6 +22,15 @@ HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Define la e
 
 ---
 
+### Document Object Model (DOM)
+
+Es el arbol que se forma en el archivo html, es decir, la representacion del HTML en tu pagina.
+
+La raíz de la estructura de árbol de HTML es la etiqueta `<html>`, que contiene dos
+nodos principales: `<head`> y `<body>`
+
+---
+
 ### Index y su estructura básica: head
 
 El primer archivo .html en tu proyecto debe llamarse `index.html`, es la primera pagina que va abrir el servidor, por default, al abrir tu proyecto.
@@ -181,8 +190,6 @@ Puedes obtener imagenes gratuitas para tus proyectos en:
 
 ---
 
-### Document Object Model (DOM)
 
-Es el arbol que se forma en el archivo html, es decir, la representacion del HTML en tu pagina.
 
 
