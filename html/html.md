@@ -98,7 +98,7 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 
 ### Texto
 
-**Texto Semantico:**
+**Texto Semantico**
 
 Etiquetas que ayudan a dar más significado a palabras o frases.
 
@@ -116,7 +116,7 @@ Etiquetas que ayudan a dar más significado a palabras o frases.
 <p>Estas&nbsp;palabras&nbsp;no&nbsp;saltan&nbsp;líneas&nbsp;en&nbsp;ventanas&nbsp;pequeñas</p>
 
 ```
-### Encabezados
+**Encabezados**
 
 ``` html
 <!-- Encabezados -->
@@ -129,7 +129,7 @@ Etiquetas que ayudan a dar más significado a palabras o frases.
 ```
 OJO: Es una buena practica tener un solo titulo por pagina. 
 
-### Listas
+**Listas**
 ```html
 <!-- Listas desordenadas -->
 <ul>
@@ -152,7 +152,7 @@ OJO: Es una buena practica tener un solo titulo por pagina.
 ```
 OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado largas.
 
-### Formato
+**Formato**
 
 ``` html
 
@@ -171,7 +171,7 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 <p>Referencia a un libro.<sup>1</sup></p>
 
 ```
-### Citas
+**Citas**
 
 ``` html
 <blockquote> <!--En bloque-->
@@ -185,7 +185,7 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 </p>
 
 ```
-### Tiempo 
+**Tiempo** 
 
 ```html 
 
