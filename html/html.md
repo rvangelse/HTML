@@ -252,6 +252,79 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 </p>
 
 ---
+### Practica 2: Mi Ciudad Favorita
+
+**Codigo**
+
+``` html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Ciudad Favorita</title>
+  </head>
+  <body>
+    <header>
+      <h1>Conoce Mi Ciudad Favorita</h1>
+      <p>Descubre por qué amo esta ciudad.</p>
+    </header>
+    <main>
+      <section>
+        <h3>Descripción de la Ciudad</h3>
+        <p>
+          Mi ciudad favorita es un lugar maravilloso para visitar. Está ubicada
+          en un hermoso valle rodeado de montañas y cuenta con un clima
+          agradable durante todo el año.
+        </p>
+      </section>
+      <section>
+        <h3>Lugares de Interés</h3>
+        <ul>
+          <li>
+            <a href="#">El Parque Central</a> - Un lugar perfecto para relajarse
+            y disfrutar de la naturaleza.
+          </li>
+          <li>
+            <a href="#">El Museo de Arte</a> - Exhibe una impresionante
+            coleccion de obras maestras.
+          </li>
+          <li>
+            <a href="#">La Playa</a> - Ideal para los amantes del sol y el mar.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>Una Cita Inspiradora</h3>
+        <blockquote>
+          "La verdadera belleza de esta ciudad se encuentra en la amabilidad de
+          su gente y en la diversidad de sus culturas." <br />
+          <br />
+          <cite>- Un residente local</cite>
+        </blockquote>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <h3>El Tiempo Hoy</h3>
+        <p>El clima en mi ciudad favorita es siempre agradable:</p>
+        <time daytime="2023-09-5">25 de septiembre 2023</time>
+        <p>
+          ¡Espero que disfrutes explorando mi ciudad favorita tanto como yo!
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
+```
+**Output**
+
+<p align="center">
+  <img src="../imagenes/grafico8.png" width="700">
+</p>
+
+---
+
 ### Tipos de imágenes
 
 **Lossless (Sin pérdida)**
