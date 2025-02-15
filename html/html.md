@@ -195,7 +195,6 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 </p>
 
 ```
-
 ---
 
 ### Practica 1: Lista de Compras
@@ -322,6 +321,26 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 <p align="center">
   <img src="../imagenes/grafico8.png" width="700">
 </p>
+
+---
+### Navegacion
+
+**Vinculos**
+```html
+
+<!-- Enlace a otra pagina -->
+<p><a href="ciudad.html">Ir a Mi Ciudad Favorita</a></p> 
+
+<!-- Enlace a otra seccion dentro de la misma pagina -->
+<p><a href="#ancla">Ir a ancla</a></p>
+<!-- Simulación de bastante contenido -->
+<img height="1000px"></img>
+<section id="ancla">Ancla</section>
+<img height="1000px"></img>
+```
+OJO: Si deseamos abrir el vínculo en una nueva página, puedes usar el atributo target='_blank'
+
+**Rutas**
 
 ---
 
