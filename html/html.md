@@ -355,6 +355,10 @@ OJO: Es recomendable usar rutas relativas cuando sea posible, a menos que desees
 
 OJO: Puedes usar la etiqueta `<base>` para asignar una ruta y relacionar al resto de tus archivos, de forma relativa.
 
+OJO: Una buena forma de documentar la estructura de tu sitio es usando un archivo [sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=es).
+
+**Barras**
+
 ---
 
 ### Tipos de imágenes
