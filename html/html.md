@@ -443,8 +443,8 @@ OJO: Al utilizar la etiqueta `<nav>`, asegúrate de que su contenido esté relac
 ```
 **Output**
 <p>
-  <img src="../imagenes/grafico9.png" width="400" align="left">
-  <img src="../imagenes/grafico10.png" width="400" align="rigth">
+  <img src="../imagenes/grafico9.png" width="400" style="display: inline-block;">
+  <img src="../imagenes/grafico10.png" width="400" style="display: inline-block;">
 </p>
 
 
