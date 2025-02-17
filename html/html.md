@@ -376,6 +376,80 @@ OJO: Una buena forma de documentar la estructura de tu sitio es usando un archiv
 OJO: Al utilizar la etiqueta `<nav>`, asegúrate de que su contenido esté relacionado con la navegación principal de tu sitio web, como menús y enlaces que guían a los usuarios a diferentes secciones. 
 
 ---
+### Practica 3: Mis Libros Favoritos
+
+**Codigo**
+
+```html 
+<!--Index-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros Favoritos</title>
+</head>
+<body>
+    <header>
+        <h1>Mis Libros Favoritos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="libro1.html">Libro 1</a></li>
+                <li><a href="libro2.html">Libro 2</a></li>
+                <li><a href="libro3.html">Libro 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Bienvenido a Mi Sitio</h3>
+            <p>!Explora mis libros favoritos haciendo clic en los enlaces de arriba¡</p>
+        </section>
+    </main>
+</body>
+</html>
+
+<!-- Libro 1 -->
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro 1 - Mis Libros Favoritos</title>
+</head>
+<body>
+    <header>
+        <h1>Libro 1 - Titulo del Libro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="libro1.html">Libro 1</a></li>
+                <li><a href="libro2.html">Libro 2</a></li>
+                <li><a href="libro3.html">Libro 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Descripcion del libro</h3>
+            <p>Aqui puedes encontrar informacion sobre el primer libro de mi lista de favoritos.</p>
+        </section>
+    </main>
+</body>
+</html>
+```
+**Output**
+<p>
+  <img src="../imagenes/grafico9.png" width="400" align="left">
+  <img src="../imagenes/grafico10.png" width="400" align="rigth">
+</p>
+
+
+
+---
 
 ### Tipos de imágenes
 
