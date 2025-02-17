@@ -358,6 +358,22 @@ OJO: Puedes usar la etiqueta `<base>` para asignar una ruta y relacionar al rest
 OJO: Una buena forma de documentar la estructura de tu sitio es usando un archivo [sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=es).
 
 **Barras**
+```html
+<!-- Barras de Navegación -->
+<nav role="navigation" aria-label="menú principal">
+    <a href="/">Hogar</a> <!-- Este enlace te lleva a la pagina principal de tu dominio-->
+    <a href="/blog.html">Blog</a>
+    <a href="/sections/about.html">Acerca De</a>
+</nav>
+
+<!-- El footer tambien sirve para navegar -->
+<footer>
+    <a href="/">Hogar</a>
+    <a href="/blog.html">Blog</a>
+    <a href="/sections/about.html">Acerca De</a>
+</footer>
+```
+OJO: Al utilizar la etiqueta `<nav>`, asegúrate de que su contenido esté relacionado con la navegación principal de tu sitio web, como menús y enlaces que guían a los usuarios a diferentes secciones. 
 
 ---
 
