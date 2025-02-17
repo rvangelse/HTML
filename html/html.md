@@ -341,6 +341,19 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 OJO: Si deseamos abrir el vínculo en una nueva página, puedes usar el atributo target='_blank'
 
 **Rutas**
+```html
+<!-- Vínculos Relativos -->
+<a href="./about.html">About</a> <!-- Relativo a la carpeta actual, se puede omitir el "." -->
+<a href="../index.html">Index</a> <!-- Ralativo a la carpeta padre -->
+
+<!-- Vínculo Absoluto -->
+<a href="https://www.google.com/">Google</a>
+
+```
+
+OJO: Es recomendable usar rutas relativas cuando sea posible, a menos que desees apuntar a una página externa. 
+
+OJO:Puedes usar la etiqueta `<base>` para asignar una ruta y relacionar al resto de tus archivos, de forma relativa.
 
 ---
 
