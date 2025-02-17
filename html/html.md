@@ -447,11 +447,12 @@ OJO: Al utilizar la etiqueta `<nav>`, asegúrate de que su contenido esté relac
   <img src="../imagenes/grafico10.png" width="350" style="display: inline-block;">
 </p>
 
-
-
 ---
 
-### Tipos de imágenes
+### Imágenes
+
+
+**Tipos de imágenes:**
 
 **Lossless (Sin pérdida)**
 
