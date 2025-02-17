@@ -338,7 +338,7 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 <section id="ancla">Ancla</section>
 <img height="1000px"></img>
 ```
-OJO: Si deseamos abrir el vínculo en una nueva página, puedes usar el atributo target='_blank'
+OJO: Si deseas abrir el vínculo en una nueva página, puedes usar el atributo target='_blank'
 
 **Rutas**
 ```html
@@ -353,7 +353,7 @@ OJO: Si deseamos abrir el vínculo en una nueva página, puedes usar el atributo
 
 OJO: Es recomendable usar rutas relativas cuando sea posible, a menos que desees apuntar a una página externa. 
 
-OJO:Puedes usar la etiqueta `<base>` para asignar una ruta y relacionar al resto de tus archivos, de forma relativa.
+OJO: Puedes usar la etiqueta `<base>` para asignar una ruta y relacionar al resto de tus archivos, de forma relativa.
 
 ---
 
