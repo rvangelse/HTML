@@ -585,5 +585,25 @@ Puedes obtener imagenes gratuitas para tus proyectos en:
 
 OJO: Los navegadores más populares soportan mp3 por lo que podrías omitir otras opciones de audio.
 
+**Video**
+```html
+<video controls src="video.mp4"></video>
+
+<!-- Puede usarse "source" al igual que en audio o imagenes -->
+<video controls loop autoplay>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.webm" type="video/webm">
+    <!-- Subtítulos: Requeridos por la ley en algunos lugares -->
+    <track src="video.es.vtt" kind="subtitles" label="Español" srclang="es" default></track>
+    <track src="video.en.vtt" kind="captions" label="English" srclang="en" ></track>
+    <!-- Descripciones para accesibilidad -->
+    <track src="descriptions.en.vtt" kind="descriptions" label="Descriptions" srclang="en"></track>
+    <!-- Capítulos -->
+    <track src="chapters.en.vtt" kind="chapters" label="Capítulos" srclang="es"></track>
+    Lo sentimos. Tu navegador no soporta este formato.
+</video>
+```
+OJO: El mejor formato de video para internet y HTML5 es H.264 (MP4). El futuro será WebM o AV1.
+
 
 
