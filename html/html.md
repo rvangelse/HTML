@@ -62,33 +62,31 @@ El `body` es la etiqueta que identifica la parte visible de nuestro sitio web. D
 
 ```html
 
+<!-- Estructura Semántica-->
 <!DOCTYPE html>
-<html lang= "es"> 
-    <body>
-        <header>
-            <nav>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <article>
-                <h1></h1>
-                <p></p> <!--Parrafo-->
-                <a href="#">Link</a>
-                </article>
-            </section>
-            <ul> <!--Lista Desordenada-->
-                <li>item</li>
-            </ul>
-            <ol> <!--Lista Ordenada-->
-            </ol>
-        </main>
-        <footer>
-        </footer>
-    </body>
-</html>
+<html lang= "es">
+<body>
+    <nav></nav>
+    <!-- Encabezado -->
+    <header>
+        <h1></h1>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+        <!-- Artículo: Unidad de información -->
+        <article></article>
+        <!-- Secciones de contenido -->
+        <section></section>
+        <!-- Contenido de lado -->
+        <aside></aside>
+    </main>
+    <!-- Pie de página -->
+    <footer></footer>
+</body>
 
 ```
+OJO: No uses divs ni tablas para agrupar contenido. Usa etiquetas semánticas.
+
 ---
 
 ### Anatomía de una etiqueta de HTML
@@ -736,4 +734,32 @@ OJO: No ignores la accesibilidad. No solo se hace por ayudar a los usuarios, tam
 </p>
 
 ---
+### Tablas
+```html
+<table>
+    <tr><!-- 1era fila-->
+        <th>Tecnología Web</th> <!-- 1era columna-->
+        <th>Función</th> <!-- 2da columna-->
+        <th>Logo</th> <!-- 3ra columna-->
+    </tr>
+    <tr> <!-- 2da fila-->
+        <td>HTML</td>
+        <td>Estructura</td>
+        <td><img src="html.svg" alt="HTML5" /></td>
+    </tr>
+    <tr> <!-- 3ra fila-->
+        <td>CSS</td>
+        <td>Estilo</td>
+        <td><img src="css.svg" alt="CSS" /></td>
+    </tr>
+    <tr> <!-- 4ta fila-->
+        <td>JavaScript</td>
+        <td>Interactividad</td>
+        <td><img src="js.svg" alt="JavaScript" /></td>
+    </tr>
+</table>
+```
+OJO: Usa tablas en HTML exclusivamente para mostrar datos organizados en filas y columnas.
 
+---
+### 
