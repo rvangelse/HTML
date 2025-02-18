@@ -605,5 +605,14 @@ OJO: Los navegadores más populares soportan mp3 por lo que podrías omitir otra
 ```
 OJO: El mejor formato de video para internet y HTML5 es H.264 (MP4). El futuro será WebM o AV1.
 
+**Marco**
 
+El elemento `<iframe>` una página web dentro de otra. Se pueden pensar como widgets.
 
+Sirve para incorporar partes de una pagina web externa a tu propia pagina. 
+
+```html
+<!-- De Google Maps, YouTube, Facebook | Seguridad -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Du0NkUb1qdw?si=_D4HndKypWyTQAxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+OJO: Establece las dimensiones (alto y ancho) del iframe y asegúrate de utilizar iframes con contenido confiable y seguro.
