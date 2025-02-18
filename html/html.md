@@ -47,7 +47,10 @@ En el `head` van todos los metadatos importantes para que el navegador pueda car
         <meta name="robots" content="index,follow"/>
         <title>Es mi pagina</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="icon" href="/favicon.ico" /> <!-- Icono -->
+        <link rel="preload" href="/font.woff2" as="font" type="font/woff2" crossorigin="anonymous" /> <!-- Fuente importada -->
+        <link rel="stylesheet" href="css/style.css" /> <!-- CSS -->
+        <script src="js/script.js"></script> <!-- JS -->
     </head>
 </html>
 ```
@@ -731,3 +734,6 @@ OJO: No ignores la accesibilidad. No solo se hace por ayudar a los usuarios, tam
 <p align="center">
   <img src="../imagenes/grafico14.png" width="450">
 </p>
+
+---
+
