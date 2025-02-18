@@ -451,6 +451,22 @@ OJO: Al utilizar la etiqueta `<nav>`, asegúrate de que su contenido esté relac
 
 ### Imágenes
 
+```html
+
+<body>  <!-- Es recomendable ajustar las imagenes con CSS -->
+    <img src="assets/arches.jpeg" alt="Arches"/> <!-- Puede terminar en ">" o "/>" -->
+    <br />
+    <img src="assets/html.svg" alt="HTML"/>
+    <br />
+    <img src="assets/pi.gif" alt="PI"/>
+</body>
+
+```
+OJO: WEBP está convirtiéndose en el nuevo estándar para imágenes raster.
+
+OJO: Para mejorar el rendimiento y la velocidad de carga de tu sitio web, asegúrate de redimensionar y comprimir tus imágenes antes de subirlas.
+
+
 
 **Tipos de imágenes:**
 
