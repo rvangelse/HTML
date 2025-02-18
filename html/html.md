@@ -673,3 +673,19 @@ OJO: Establece las dimensiones (alto y ancho) del iframe y asegúrate de utiliza
 
 ```
 OJO: Usa `<span>` y `<div>` solo para encapsular estilos que verás en CSS.
+
+**Atributos Globales**
+```html
+<!--Sirve para identificar una etiqueta -->
+<p id="parrafo1">No hay nadie como yo</p>
+<!-- Sirve para identificar un grupo de etiquetas -->
+<p class="muchos">Unidos somos más</p>
+<!-- Sirve para marcar como editable un texto-->
+<p contenteditable="true">Puedes editar este contenido</p>
+<!-- Indica el idioma del parrafo -->
+<p lang="es">Esto está escrito en español</p>
+<!-- Indica el sentido de la escritura del parrafo -->
+<p dir="rtl">Esto está escrito en العربية (árabe)</p>
+```
+
+
