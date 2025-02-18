@@ -687,5 +687,16 @@ OJO: Usa `<span>` y `<div>` solo para encapsular estilos que verás en CSS.
 <!-- Indica el sentido de la escritura del parrafo -->
 <p dir="rtl">Esto está escrito en العربية (árabe)</p>
 ```
-
+**Accesibilidad**
+```html
+<!-- Sirve para mejorar la accesibilidad de una seccion -->
+<div aria-label="H2O">
+    <div aria-hidden="true">
+        <span>H</span>
+        <span>2</span>
+        <span>O</span>
+    </div>
+</div>
+```
+OJO: No ignores la accesibilidad. No solo se hace por ayudar a los usuarios, también expande el tráfico y mejora el SEO.
 
