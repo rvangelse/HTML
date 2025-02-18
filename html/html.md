@@ -466,6 +466,31 @@ OJO: WEBP está convirtiéndose en el nuevo estándar para imágenes raster.
 
 OJO: Para mejorar el rendimiento y la velocidad de carga de tu sitio web, asegúrate de redimensionar y comprimir tus imágenes antes de subirlas.
 
+**Resolucion**
+```html
+<img src="assets/arches-300.jpg" alt="Arches" height="100" srcset="assets/arches-600.jpg 2x, assets/arches-1200.jpg 3x" > <!-- El atributo "srcset" escoge la resolucion perfecta para nuestra pantalla -->
+```
+
+OJO: Es recomendable soportar 3 resoluciones (móvil, ipad, y escritorio) y las últimas 3 versiones de los navegadores más usados (Chrome, Firefox, Safari y Edge). 
+
+**Figura**
+```html
+<!-- Ayuda a la semántica para los buscadores -->
+<figure>
+    <img src="./html.svg" alt="HTML5" width="100" height="100" />
+    <figcaption>Este es es logo de HTML5</figcaption>
+</figure>
+```
+
+**Foto**
+```html
+<picture> <!-- Sirve para condicionar las imagenes que se usara dada una resolucion -->
+    <source media="(min-width:1200px)" srcset="assets/arches-1200.jpg">
+    <source media="(min-width:600px)" srcset="assets/arches-600.jpg">
+    <img src="assets/html.svg" alt="HTML5" width="600" />
+</picture>
+```
+
 
 
 **Tipos de imágenes:**
