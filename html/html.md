@@ -571,8 +571,19 @@ Puedes obtener imagenes gratuitas para tus proyectos en:
 ### Multimedia
 
 **Audio**
+```html
 
+<audio controls src="audio.mp3" loop autoplay></audio>
 
+<!-- Se puede usar "source" como en imagenes -->
+<audio controls loop autoplay>
+    <source src="audio.mp3" type="audio/mpeg">
+    <source src="audio.ogg" type="audio/ogg; codec=opus">
+    Lo sentimos. Tu navegador no soporta este formato.
+</audio>
+```
+
+OJO: Los navegadores más populares soportan mp3 por lo que podrías omitir otras opciones de audio.
 
 
 
