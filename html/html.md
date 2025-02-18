@@ -654,6 +654,6 @@ OJO: Establece las dimensiones (alto y ancho) del iframe y asegúrate de utiliza
 **Output**
 
 <p align="center">
-  <img src="../imagenes/grafico13.png" width="300">
+  <img src="../imagenes/grafico13.png" width="400">
 </p>
 
