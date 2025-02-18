@@ -616,3 +616,44 @@ Sirve para incorporar partes de una pagina web externa a tu propia pagina.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Du0NkUb1qdw?si=_D4HndKypWyTQAxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
 OJO: Establece las dimensiones (alto y ancho) del iframe y asegúrate de utilizar iframes con contenido confiable y seguro.
+
+---
+
+### Practica 5: Multimedia en HTML
+
+**Codigo**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML con Multimedia</title>
+</head>
+<body>
+    <header>
+        <h1>Multimedia en HTML</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Audio</h3>
+            <audio controls src="src/audio.mp3"></audio>
+        </section>
+        <section>
+            <h3>Video</h3>
+            <video controls width="400" src="src/video.mp4"></video>
+        </section>
+        <section>
+            <h3>Iframe</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Du0NkUb1qdw?si=UrVo_DRh4C5wSSyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+</body>
+</html>
+```
+**Output**
+
+<p align="center">
+  <img src="../imagenes/grafico13.png" width="600">
+</p>
+
