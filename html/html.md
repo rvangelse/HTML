@@ -491,8 +491,6 @@ OJO: Es recomendable soportar 3 resoluciones (móvil, ipad, y escritorio) y las 
 </picture>
 ```
 
-
-
 **Tipos de imágenes:**
 
 **Lossless (Sin pérdida)**
@@ -528,6 +526,46 @@ Puedes obtener imagenes gratuitas para tus proyectos en:
 
 - [pexels](https://www.pexels.com/es-es/)
 - [unsplash](https://unsplash.com/es)
+
+---
+
+### Practica 4: Galeria
+
+**Codigo**
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+</head>
+
+    
+<body>
+    <header>
+        <h1>Galería de Imágenes</h1>
+    </header>
+    <main>
+        <section>
+            <ul>
+                <li><a href="imagen1.html"><img src="imagenes/imagen1.jpg" alt="Foto de un lago" height="200" width="200"></a></li>
+                <li><a href="imagen2.html"><img src="imagenes/imagen2.jpg" alt="Foto de una farola" height="200" width="200"></a></li>
+                <li><a href="imagen3.html"><img src="imagenes/imagen3.jpg" alt="Foto de montañas" height="200" width="200"></a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+```
+
+**Output**
+
+<p>
+  <img src="../imagenes/grafico11.png" width="350" style="display: inline-block;">
+  <img src="../imagenes/grafico12.png" width="350" style="display: inline-block;">
+</p>
 
 ---
 
