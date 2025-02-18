@@ -661,3 +661,15 @@ OJO: Establece las dimensiones (alto y ancho) del iframe y asegúrate de utiliza
 ### Contenido
 
 **Contenedores**
+```html
+<!-- Bloque. Se utiliza para agrupar etiquetas -->
+<div>Soy un Div</div>
+<div>Soy un Div</div>
+<div>Soy un Div</div>
+<!-- En línea. Se usa para un grupo más pequeño de una o más palabras, junto con atributos -->
+<span>Soy un Span</span>
+<span>Soy un Span</span>
+<span>Soy un Span</span>
+
+```
+OJO: Usa `<span>` y `<div>` solo para encapsular estilos que verás en CSS.
