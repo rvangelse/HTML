@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML con Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios en HTML</h1>
+    </header>
+    <main>
+        <section>
+            <form action="#" method="post">
+                <h2>Datos Personales</h2>
+                <label>
+                    Nombre:
+                    <input type="text" name="nombre" id="nombre" required> <br>
+                </label>
+                <label>
+                    Correo Electronico: 
+                    <input type="email" name="correo" id="correo" required> <br>
+                </label>
+                <label>
+                    Telefono: 
+                    <input type="tel" name="telefono" id="telefono"> <br>
+                </label>
+                <h2>Genero</h2>
+                <label>
+                    <input type="radio" name="genero" value="masculino"> 
+                    Masculino <br>
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="femenino"> 
+                    Femenino <br>
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="otro"> 
+                    Otro <br>
+                </label>
+                <h2>Preferencias</h2>
+                <label>
+                    <input type="checkbox" name="preferencias[]" value="musica"> 
+                    Musica <br>
+                </label>
+                <label>
+                    <input type="checkbox" name="preferencias[]" value="deportes"> 
+                    Deportes <br>
+                </label>
+                <label>
+                    <input type="checkbox" name="preferencias[]" value="Lectura"> 
+                    Lectura <br>
+                </label>
+                <h2>Comentarios</h2>
+                <textarea name="comentarios" id="comentarios" cols="50" rows="4"></textarea> <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
