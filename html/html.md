@@ -982,7 +982,7 @@ OJO: Siempre asegurate de agregar el atributo 'name' a cada campo del formulario
 **Output**
 
 <p align="center">
-  <img src="../imagenes/grafico16.png" width="500">
+  <img src="../imagenes/grafico16.png" width="450">
 </p>
 
 ---
