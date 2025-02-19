@@ -41,7 +41,7 @@ OJO: Es recomendable soportar 3 resoluciones (móvil, ipad, y escritorio) y las 
 </picture>
 ```
 
-### Tipos de imágenes:
+### Tipos de imágenes
 
 **Lossless (Sin pérdida)**
 
