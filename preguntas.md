@@ -11,7 +11,7 @@ Contiene metadatos e informacion sobre el documento, como el titulo y enlaces a 
 
 - **Que representa la etiqueta `<body>`?**
 
-Definde el cuerpo del documento, donde se coloca el contenido visible para el usuario.
+Define el cuerpo del documento, donde se coloca el contenido visible para el usuario.
 
 - **Para que se utiliza la etiqueta `<title>`?**
 
@@ -47,7 +47,7 @@ Con las etiquetas `<dl>`para la lista, `<dt>`para el termino y `<dd>`para la def
 
 - **Como se crea un campo de entrada de texto en un formulario?**
 
-Con la etiqueta `<input type="text">`
+Con la etiqueta `<input type="text">`.
 
 - **Que hace la etiqueta `<nav>`?**
 
@@ -55,7 +55,7 @@ Define un conjunto de enlaces de navegacion.
 
 - **Como se especifica un boton en un formulario?**
 
-Usando `<button>`o `<input type="button">`
+Usando `<button>`o `<input type="button">`.
 
 - **Para que se utiliza la etiqueta `<aside>`?**
 
@@ -69,7 +69,7 @@ Utilizando la etiqueta `<iframe>`con la URL del video en el atributo src.
 
 Una etiqueta que finaliza un elemento, como `</p>` para cerrar un parrafo.
 
-- **Como se crea un elnace que abre en una nueva pestaña?**
+- **Como se crea un enlace que abre en una nueva pestaña?**
 
 Añadiendo `target="_blank"`a la etiqueta `<a>`.
 
