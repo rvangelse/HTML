@@ -3,7 +3,7 @@
 HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Define la estructura y el contenido de una pagina web. Es un lenguaje de alto rendimiento, interpretado y de codigo abierto. Fue creado por Tim Berners-Lee en 1990.
 
 <p align="center">
-  <img src="../imagenes/grafico7.png" width="600">
+  <img src="imagenes/grafico7.png" width="600">
 </p>
 
 ---
@@ -11,7 +11,7 @@ HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Define la e
 ### Estructura básica de HTML en una página Web
 
 <p align="center">
-  <img src="../imagenes/grafico4.webp" width="200">
+  <img src="imagenes/grafico4.webp" width="200">
 </p>
 
 - Container: Contenedor principal
@@ -92,7 +92,7 @@ OJO: No uses divs ni tablas para agrupar contenido. Usa etiquetas semánticas.
 ### Anatomía de una etiqueta de HTML
 
 <p align="center">
-  <img src="../imagenes/grafico6.png" width="350">
+  <img src="imagenes/grafico6.png" width="350">
 </p>
 
 ---
@@ -248,7 +248,7 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 **Output**
 
 <p align="center">
-  <img src="../imagenes/grafico5.png" width="200">
+  <img src="imagenes/grafico5.png" width="200">
 </p>
 
 ---
@@ -320,7 +320,7 @@ OJO: Es recomendable el uso de listas anidadas, si las listas son demasiado larg
 **Output**
 
 <p align="center">
-  <img src="../imagenes/grafico8.png" width="700">
+  <img src="imagenes/grafico8.png" width="700">
 </p>
 
 ---
@@ -444,8 +444,8 @@ OJO: Al utilizar la etiqueta `<nav>`, asegúrate de que su contenido esté relac
 ```
 **Output**
 <p>
-  <img src="../imagenes/grafico9.png" width="350" style="display: inline-block;">
-  <img src="../imagenes/grafico10.png" width="350" style="display: inline-block;">
+  <img src="imagenes/grafico9.png" width="350" style="display: inline-block;">
+  <img src="imagenes/grafico10.png" width="350" style="display: inline-block;">
 </p>
 
 ---
@@ -564,8 +564,8 @@ Puedes obtener imagenes gratuitas para tus proyectos en:
 **Output**
 
 <p>
-  <img src="../imagenes/grafico11.png" width="350" style="display: inline-block;">
-  <img src="../imagenes/grafico12.png" width="350" style="display: inline-block;">
+  <img src="imagenes/grafico11.png" width="350" style="display: inline-block;">
+  <img src="imagenes/grafico12.png" width="350" style="display: inline-block;">
 </p>
 
 ---
@@ -655,7 +655,7 @@ OJO: Establece las dimensiones (alto y ancho) del iframe y asegúrate de utiliza
 **Output**
 
 <p align="center">
-  <img src="../imagenes/grafico13.png" width="400">
+  <img src="imagenes/grafico13.png" width="400">
 </p>
 
 ---
@@ -730,7 +730,7 @@ OJO: No ignores la accesibilidad. No solo se hace por ayudar a los usuarios, tam
 
 **Output**
 <p align="center">
-  <img src="../imagenes/grafico14.png" width="450">
+  <img src="imagenes/grafico14.png" width="450">
 </p>
 
 ---
@@ -850,7 +850,7 @@ OJO: Usa tablas en HTML exclusivamente para mostrar datos organizados en filas y
 **Output**
 
 <p align="center">
-  <img src="../imagenes/grafico15.png" width="450">
+  <img src="imagenes/grafico15.png" width="450">
 </p>
 
 ---
@@ -982,7 +982,7 @@ OJO: Siempre asegurate de agregar el atributo 'name' a cada campo del formulario
 **Output**
 
 <p align="center">
-  <img src="../imagenes/grafico16.png" width="350">
+  <img src="imagenes/grafico16.png" width="350">
 </p>
 
 ---
