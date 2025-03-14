@@ -1,6 +1,6 @@
 # Fundamentos de HTML
 
-Repositorio sobre los fundamentos de HTML.  
+Apuntes sobre los fundamentos de HTML  
 
 ## Temario
 
